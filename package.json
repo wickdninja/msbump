@@ -1,0 +1,19 @@
+{
+  "name": "dotnet-version",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "wickdninja",
+  "license": "ISC",
+  "bin": "lib/dotnet-version.js",
+  "dependencies": {
+    "@types/node": "^14.14.2",
+    "globby": "^11.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
