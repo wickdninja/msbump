@@ -1,6 +1,6 @@
 {
-  "name": "dotnet-version",
-  "version": "1.0.3",
+  "name": "msbump",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "author": "wickdninja",
   "license": "ISC",
-  "bin": "lib/dotnet-version.js",
+  "bin": "lib/msbump.js",
   "dependencies": {
-    "@types/node": "^14.14.2",
-    "globby": "^11.0.1"
+    "globby": "^11.0.1",
+    "yargs": "^17.2.1"
   },
-  "devDependencies": {
-    "typescript": "^4.0.3"
+  "prettier": {
+    "singleQuote": true
   }
 }
