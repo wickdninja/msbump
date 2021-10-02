@@ -1,6 +1,6 @@
 {
   "name": "msbump",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
   "license": "ISC",
   "bin": "lib/msbump.js",
   "dependencies": {
-    "globby": "^11.0.1",
     "yargs": "^17.2.1"
   },
   "prettier": {
