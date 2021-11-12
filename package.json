@@ -6,6 +6,23 @@
   "scripts": {
     "build": "tsc"
   },
+  "keywords": [
+    "bump",
+    "semver",
+    "version",
+    "versioning",
+    "dotnet",
+    "dotnetcore",
+    "dotnetcli",
+    "c#",
+    "microsoft",
+    "dotnet-cli",
+    "dotnet-core",
+    "devops",
+    "ci",
+    "cd",
+    "continuous-delivery"
+  ],
   "author": "wickdninja",
   "license": "ISC",
   "bin": "lib/msbump.js",
