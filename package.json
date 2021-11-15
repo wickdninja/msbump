@@ -25,7 +25,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wickdninja/msbump",
+    "url": "https://github.com/wickdninja/msbump"
+  },
   "author": "wickdninja",
   "license": "ISC",
   "bin": "lib/msbump.js",
