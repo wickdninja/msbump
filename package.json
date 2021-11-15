@@ -1,6 +1,6 @@
 {
   "name": "msbump",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,9 @@
     "cd",
     "continuous-delivery"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wickdninja/msbump",
   "author": "wickdninja",
   "license": "ISC",
   "bin": "lib/msbump.js",
