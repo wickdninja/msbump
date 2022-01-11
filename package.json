@@ -31,6 +31,7 @@
   "license": "ISC",
   "bin": "lib/msbump.js",
   "dependencies": {
+    "git-tag": "^0.2.0",
     "yargs": "^17.2.1"
   },
   "prettier": {
