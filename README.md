@@ -18,12 +18,12 @@ OR
 
 ### Args
 
-<strong>--[path|project|p]</strong> is <strong>required</strong> and `[major|minor|patch|build]` is optional
+<strong>--[path|project|p]</strong> is <strong>required</strong>, `[major|minor|patch|build]` optional, `--tag` Adds git tag optional
 
 ### Examples:
 
 ```
-npx msbump --p ./tests/test.csproj
+npx msbump --p ./tests/test.csproj --tag
 Bumped Version to 1.0.0.1
 
 npx msbump --p ./tests/test.csproj build
