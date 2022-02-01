@@ -18,25 +18,33 @@ OR
 
 ### Args
 
-<strong>--[path|project|p]</strong> is <strong>required</strong>, `[major|minor|patch|build]` optional, `--tag` Adds git tag optional
+**`--[path|project|p]`** **required**
 
-### Examples:
+***`[major|minor|patch|build]` optional ( defaults to `build` )***
 
-```
-npx msbump --p ./tests/test.csproj --tag
+***`--[tag]` optional ( adds git tag )***
+
+### Examples
+
+```sh
+npx msbump --p ./tests/test.csproj
 Bumped Version to 1.0.0.1
 
 npx msbump --p ./tests/test.csproj build
 Bumped Version to 1.0.0.2
 
 npx msbump --p ./tests/test.csproj patch
-Bumped Version to 1.0.1.2
+Bumped Version to 1.0.1.0
 
 npx msbump --p ./tests/test.csproj minor
-Bumped Version to 1.1.1.2
+Bumped Version to 1.1.0.0
 
 npx msbump --p ./tests/test.csproj major
-Bumped Version to 2.1.1.2
+Bumped Version to 2.0.0.0
+
+# bump and tag 
+npx msbump --p ./tests/test.csproj major --tag
+Bumped Version to 3.0.0.0
 ```
 
 ### Using Build Targets
