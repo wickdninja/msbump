@@ -1,6 +1,6 @@
 # msbump
 
-<image width="225" src="https://user-images.githubusercontent.com/6932589/135706650-25dffc3b-ea0e-48b2-999c-2f88d55c6f9b.png">
+![bump](https://raw.githubusercontent.com/wickdninja/msbump/main/.github/images/bump.png)
 
 CLI utility to bump versions of dotnet projects.
 
