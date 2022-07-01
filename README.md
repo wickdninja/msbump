@@ -22,6 +22,10 @@ OR
 
 ***`[major|minor|patch|build]` optional ( defaults to `build` )***
 
+***`--[dry]` optional ( perform dry run )***
+
+***`--[current]` optional ( like dry run but simply returns the current version )***
+
 ***`--[tag]` optional ( adds git tag )***
 
 ### Examples
